@@ -1,8 +1,10 @@
+'use client';
+
 type Props = {}
 
 function Navbar({}: Props) {
   return (
-    <div>Navbar</div>
+    <nav>Navbar</nav>
   )
 }
 
