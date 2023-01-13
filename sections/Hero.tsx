@@ -46,17 +46,17 @@ function Hero({}: Props) {
           />
 
           <a href="#explore">
-            <Link href="https://www.swynne.com" target="_blank" >
-              <div className="w-full flex justify-end -mt-[50px] sm:-mt-[70px] md:-mt-[125px] lg:-mt-[200px] pr-[40px] relative z-10">
+            <div className="w-full flex justify-end -mt-[50px] sm:-mt-[70px] md:-mt-[125px] lg:-mt-[200px] pr-[40px] relative z-10">
+              <Link href="https://www.swynne.com" target="_blank">
                 <Image
                   src="https://cdn.midjourney.com/efebb487-320a-4b2c-81a8-fb5c28300583/grid_0.png"
-                  className=" w-[150px] h-[150px] sm:w-[225px] sm:h-[225px] md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px] object-contain rounded-full"
+                  className=" w-[150px] h-[150px] sm:w-[225px] sm:h-[225px] md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px] object-contain rounded-full hover-pointer"
                   alt="AI Picture of Sam Wynne"
                   width={800}
                   height={800}
                 />
-              </div>
-            </Link>
+              </Link>
+            </div>
           </a>
         </motion.div>
       </motion.div>

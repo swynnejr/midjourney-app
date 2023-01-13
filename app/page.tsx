@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="bg-primary-black overflow-hidden">
       <Navbar />
-      <Hero />
+      <Hero className="-mt-28" />
       <About />
       <Explore />
       <GetStarted />
