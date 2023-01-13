@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles";
 import { slideIn, staggerContainer, textVariant } from "../utils/motion";
 
@@ -11,7 +12,7 @@ function Hero({}: Props) {
   return (
     <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
       <motion.div
-        variants={staggerContainer}
+        variants={staggerContainer as any}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
@@ -31,29 +32,33 @@ function Hero({}: Props) {
           </motion.div>
         </div>
         <motion.div
-        variants={slideIn('right', 'tween', 0.2, 1)}
-        className="relative w-full md:-mt-[20px] -mt-[12px]"
-      >
-        <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
+          variants={slideIn("right", "tween", 0.2, 1)}
+          className="relative w-full md:-mt-[20px] -mt-[12px]"
+        >
+          <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
 
-        <Image 
-          src="https://cdn.midjourney.com/8f72b394-eddf-4b5e-b9d2-cebbef59c732/grid_0.png"
-          className="w-full object-cover rounded-tl-[140px] z-10 relative"
-          alt="Astronaut Drowning in a Giant Aquarium"
-          width={800}
-          height={800}
-        />
+          <Image
+            src="https://cdn.midjourney.com/8f72b394-eddf-4b5e-b9d2-cebbef59c732/grid_0.png"
+            className="w-full object-cover rounded-tl-[140px] z-10 relative"
+            alt="Astronaut Drowning in a Giant Aquarium"
+            width={800}
+            height={800}
+          />
 
-        <a href="#explore">
-          <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
-            {/* <img
-              src="/stamp.png"
-              alt="stamp"
-              className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain"
-            /> */}
-          </div>
-        </a>
-      </motion.div>
+          <a href="#explore">
+            <Link href="https://www.swynne.com" target="_blank" >
+              <div className="w-full flex justify-end -mt-[50px] sm:-mt-[70px] md:-mt-[125px] lg:-mt-[200px] pr-[40px] relative z-10">
+                <Image
+                  src="https://cdn.midjourney.com/efebb487-320a-4b2c-81a8-fb5c28300583/grid_0.png"
+                  className=" w-[150px] h-[150px] sm:w-[225px] sm:h-[225px] md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px] object-contain rounded-full"
+                  alt="AI Picture of Sam Wynne"
+                  width={800}
+                  height={800}
+                />
+              </div>
+            </Link>
+          </a>
+        </motion.div>
       </motion.div>
     </section>
   );
