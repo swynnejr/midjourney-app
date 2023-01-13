@@ -3,7 +3,7 @@ import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World }
 
 export default function Home() {
   return (
-    <main>
+    <div className="bg-primary-black overflow-hidden">
       <Navbar />
       <Hero />
       <About />
@@ -14,6 +14,6 @@ export default function Home() {
       <Insights />
       <Feedback />
       <Footer />
-    </main>
+    </div>
   );
 }
