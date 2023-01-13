@@ -12,7 +12,7 @@ type Props = {}
 
 function About({}: Props) {
   return (
-    <section className={`${styles.paddings} relative z-10 -mt-56`}>
+    <section className={`${styles.paddings} relative z-10 -mt-32 sm:-mt-40 md:-mt-56`}>
       <div className="gradient-02 z-0" />
       <motion.div
         variants={staggerContainer as any}
@@ -37,7 +37,6 @@ function About({}: Props) {
           <ArrowDownIcon className="text-white w-[18px] h-[28px] sm:w-[36px] md:h-[56px] object-contain mt-[28px]"  />
         </motion.div>
       </motion.div>
-      About
     </section>
   )
 }
