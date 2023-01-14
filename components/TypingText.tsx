@@ -8,7 +8,7 @@ type Props = {
   textStyles: string,
 }
 
-export default function TypingText({ title, textStyles}: Props) {
+export default function TypingText({ title, textStyles }: Props) {
   return (
     <motion.p
       variants={textContainer}

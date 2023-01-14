@@ -1,28 +1,28 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    imgUrl: 'https://cdn.midjourney.com/4311740e-f830-4372-a40d-e60ec003cfc9/grid_0.png',
+    title: 'Hogwarts Reimagined',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
+    imgUrl: 'https://cdn.midjourney.com/b9601ff0-4e75-46ff-82cb-89da191c1432/grid_0.png',
     title: 'The Upside Down',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    imgUrl: 'https://cdn.midjourney.com/99360211-5be0-43d9-ba3c-72e3b37f08ca/grid_0.png',
+    title: 'Variations of the Future',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
+    imgUrl: 'https://cdn.midjourney.com/5b0a3166-f5b9-4b36-bac7-0965c2a2b76f/grid_0.png',
     title: 'Paradise Island',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    imgUrl: 'https://cdn.midjourney.com/9a651a89-b543-4369-924b-0a00c1e52fa5/grid_0.png',
+    title: 'Area 51',
   },
 ];
 

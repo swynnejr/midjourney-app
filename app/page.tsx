@@ -1,5 +1,6 @@
 import { Footer, Navbar } from '../components';
 import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../sections';
+import { exploreWorlds } from '../constants'
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
       <div className="relative">
       <About />
         <div className="gradient-03 z-0" />
-      <Explore />
+      <Explore exploreWorlds={exploreWorlds} />
       </div>
       <GetStarted />
       <div className="relative">

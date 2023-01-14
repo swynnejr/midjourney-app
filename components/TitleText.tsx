@@ -1,9 +1,20 @@
 'use client'
 
-type Props = {}
+import { motion } from "framer-motion"
+import { textContainer, textVariant2 } from "../utils/motion"
 
-export default function TitleText({}: Props) {
+type Props = {
+  title: React.ReactNode,
+  textStyles: string,
+}
+
+export default function TitleText({ title, textStyles}: Props) {
   return (
-    <div>TitleText</div>
+    <motion.h2
+      variants={textVariant2}
+      initial="hidden"
+      whileInView="show"
+      className={`mt-[8px] font-bold text-[40px] md:text-[64px] text-white ${textStyles}`}
+    >{title}</motion.h2>
   )
 }
