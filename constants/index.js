@@ -27,9 +27,9 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Join the Midjourney discord channel by joining the Beta',
+  'Enter a "Newbie" channel and type the "/imagine"',
+  'Play around with prompts to generate four variations on your idea',
 ];
 
 export const newFeatures = [

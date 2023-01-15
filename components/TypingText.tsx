@@ -5,7 +5,7 @@ import { textContainer, textVariant2 } from "../utils/motion"
 
 type Props = {
   title: string,
-  textStyles: string,
+  textStyles: string | undefined,
 }
 
 export default function TypingText({ title, textStyles }: Props) {
