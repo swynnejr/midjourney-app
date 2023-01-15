@@ -28,7 +28,7 @@ export const exploreWorlds = [
 
 export const startingFeatures = [
   'Join the Midjourney discord channel by joining the Beta',
-  'Enter a "Newbie" channel and type the "/imagine"',
+  'Enter a "Newbie" channel and type "/imagine"',
   'Play around with prompts to generate four variations on your idea',
 ];
 
