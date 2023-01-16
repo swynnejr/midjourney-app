@@ -1,5 +1,5 @@
 import { Footer, Navbar } from '../components';
-import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../sections';
+import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatIsPrompt, World } from '../sections';
 import { exploreWorlds } from '../constants'
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
       </div>
       <GetStarted />
       <div className="relative">
-      <WhatsNew />
+      <WhatIsPrompt />
         <div className="gradient-04 z-0" />
       <World />
       </div>

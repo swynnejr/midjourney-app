@@ -4,6 +4,7 @@ import TypingText from './TypingText';
 import TitleText from './TitleText';
 import ExploreCard from './ExploreCard';
 import StartSteps from './StartSteps';
+import PromptTips from './PromptTips';
 
 export {
   Navbar,
@@ -11,5 +12,6 @@ export {
   TypingText,
   TitleText,
   ExploreCard,
-  StartSteps
+  StartSteps,
+  PromptTips
 };
