@@ -1,3 +1,5 @@
+import { Variants } from "framer-motion";
+
 export interface IExploreWorlds {
     id: WorldID;
     imgUrl: string;
@@ -9,6 +11,11 @@ export interface IMotion {
     type: string;
     delay: number | undefined;
     duration: number | undefined;
+}
+
+export interface IStaggerContainer {
+    staggerChildren: Variants;
+    delayChildren: Variants;
 }
 
 export type WorldID = string;

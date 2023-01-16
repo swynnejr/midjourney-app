@@ -1,3 +1,4 @@
+import { Variants } from "framer-motion";
 
 
 export const navVariants = {
@@ -38,7 +39,7 @@ export const slideIn = (direction: string, type: string, delay: number, duration
   },
 });
 
-export const staggerContainer = (staggerChildren: any, delayChildren: any) => ({
+export const staggerContainer = (staggerChildren: Variants, delayChildren: Variants) => ({
   hidden: {},
   show: {
     transition: {
@@ -124,7 +125,7 @@ export const planetVariants = (direction: string) => ({
   },
 });
 
-export const zoomIn = (delay: any, duration: any) => ({
+export const zoomIn = (delay: number, duration: number) => ({
   hidden: {
     scale: 0,
     opacity: 0,

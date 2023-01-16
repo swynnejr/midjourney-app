@@ -1,12 +1,13 @@
 'use client';
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import styles from "../styles";
 import Image from "next/image";
 import Link from "next/link";
 import { fadeIn, staggerContainer } from "../utils/motion";
 import { TypingText } from "../components";
 import { ArrowDownIcon } from "@heroicons/react/24/solid";
+import { IStaggerContainer } from "../typings";
 
 type Props = {}
 
