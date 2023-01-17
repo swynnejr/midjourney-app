@@ -26,6 +26,8 @@ function World({}: Props) {
         variants={fadeIn('up', 'tween', 0.3, 1)}
         className="relative mt-[68px] flex w-full h-[550px]"
       >
+
+        {/* To Do: Extract these images into a separate file, or try to animate the pins being dropped on the map */}
         <Image
                     src="https://cdn.midjourney.com/7001fe76-893f-485c-b440-0bb77f0fd954/grid_0.png"
                     className="w-full h-full object-cover"
@@ -42,7 +44,6 @@ function World({}: Props) {
                     height={500}
         />
         </div>
-
         <div className="absolute top-20 left-40 w-[70px] h-[70px] p-[6px] rounded-full bg-[#f940ff5f]">
         <Image
                     src="https://cdn.midjourney.com/70d51892-6714-47fa-90fc-0f2df6c8c019/grid_0.png"
