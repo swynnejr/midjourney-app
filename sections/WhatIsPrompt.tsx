@@ -20,21 +20,6 @@ function WhatIsPrompt({}: Props) {
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
     >
       <motion.div
-        variants={fadeIn("right", "tween", 0.2, 1)}
-        className="flex-[0.75] flex justify-center flex-col"
-      >
-        <TypingText title="| How Midjourney Works" textStyles="" />
-        <TitleText title={<>What is a prompt?</>} textStyles="" />
-        <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
-          {newFeatures.map((feature, index) => (
-            <PromptTips
-              key={feature.title}
-              {...feature}
-            />
-          ))}
-        </div>
-      </motion.div>
-      <motion.div
         variants={planetVariants("right")}
         className={`flex-1 ${styles.flexCenter}`}
       >
@@ -45,6 +30,21 @@ function WhatIsPrompt({}: Props) {
           height={800}
           className="object-contain rounded-full"
           />
+      </motion.div>
+      <motion.div
+        variants={fadeIn("right", "tween", 0.2, 1)}
+        className="flex-[0.75] flex justify-center flex-col"
+      >
+        <TypingText title="| How Midjourney Works" textStyles="" />
+        <TitleText title={<>What is a prompt?</>} textStyles="" />
+        <div className="mt-3 flex flex-wrap justify-between md:justify-around gap-[24px]">
+          {newFeatures.map((feature, index) => (
+            <PromptTips
+              key={feature.title}
+              {...feature}
+            />
+          ))}
+        </div>
       </motion.div>
     </motion.div>
   </section>
