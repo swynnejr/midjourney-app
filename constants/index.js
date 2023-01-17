@@ -47,20 +47,26 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    imgUrl: 'https://cdn.midjourney.com/60ced2a7-cced-4570-8077-8c0456a29b0d/grid_0.png',
+    title: 'Macro Photography',
     subtitle:
         'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
   },
   {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    imgUrl: 'https://cdn.midjourney.com/c233f46f-f710-4acd-9a7a-54d587853caa/grid_0.png',
+    title: '7 tips to easily master the madness of Midjourney',
     subtitle:
         'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
   },
   {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
+    imgUrl: 'https://cdn.midjourney.com/40cf8146-200d-4fad-b166-6722f93c9a60/grid_0.png',
+    title: 'Website and Mobile App UI',
+    subtitle:
+        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+  },
+  {
+    imgUrl: 'https://cdn.midjourney.com/f2997963-3f8e-49a3-b8d5-04ab81a03669/grid_0.png',
+    title: 'Logos and Branding',
     subtitle:
         'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
   },

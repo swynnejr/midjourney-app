@@ -5,6 +5,7 @@ import TitleText from './TitleText';
 import ExploreCard from './ExploreCard';
 import StartSteps from './StartSteps';
 import PromptTips from './PromptTips';
+import InsightCard from './InsightCard';
 
 export {
   Navbar,
@@ -13,5 +14,6 @@ export {
   TitleText,
   ExploreCard,
   StartSteps,
-  PromptTips
+  PromptTips,
+  InsightCard
 };
