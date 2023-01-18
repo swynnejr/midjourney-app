@@ -47,28 +47,28 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrl: 'https://cdn.midjourney.com/60ced2a7-cced-4570-8077-8c0456a29b0d/grid_0.png',
-    title: 'Macro Photography',
-    subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
-  },
-  {
     imgUrl: 'https://cdn.midjourney.com/c233f46f-f710-4acd-9a7a-54d587853caa/grid_0.png',
     title: '7 tips to easily master the madness of Midjourney',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+        'Midjourney can be overwhelming at first. These are my top tips to help you get over analysis paralysis.',
+  },
+  {
+    imgUrl: 'https://cdn.midjourney.com/60ced2a7-cced-4570-8077-8c0456a29b0d/grid_0.png',
+    title: 'Realistic Photography',
+    subtitle:
+        'Midjourney can create astonishingly "real" looking images. Here are some ideas for coaxing out "realism".',
   },
   {
     imgUrl: 'https://cdn.midjourney.com/40cf8146-200d-4fad-b166-6722f93c9a60/grid_0.png',
     title: 'Website and Mobile App UI',
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        "Designing a new website or mobile app can be a burden. I'll show you how to use Midjourney to get the creative juices flowing.",
   },
   {
     imgUrl: 'https://cdn.midjourney.com/f2997963-3f8e-49a3-b8d5-04ab81a03669/grid_0.png',
     title: 'Logos and Branding',
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        "While Midjourney currently won't let you feed it the text you want to see, it will create stunning logos with placeholder gibberish.",
   },
 ];
 
