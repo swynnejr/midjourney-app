@@ -43,6 +43,7 @@ function Hero({}: Props) {
             alt="Astronaut Drowning in a Giant Aquarium"
             width={800}
             height={800}
+            priority
           />
 
           <div className="w-full flex justify-end -mt-[50px] sm:-mt-[70px] md:-mt-[125px] lg:-mt-[200px] pr-[40px] relative z-10">
