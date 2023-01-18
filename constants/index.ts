@@ -74,19 +74,27 @@ export const insights = [
 
 export const socials = [
   {
-    name: 'twitter',
-    url: '/twitter.svg',
+    title: 'GitHub',
+    url: 'https://github.com/swynnejr',
   },
   {
-    name: 'linkedin',
-    url: '/linkedin.svg',
+    title: 'LinkedIn',
+    url: 'https://www.linkedin.com/in/samwynne214/',
   },
   {
-    name: 'instagram',
-    url: '/instagram.svg',
+    title: 'YouTube',
+    url: 'https://youtube.com/samwynne',
   },
   {
-    name: 'facebook',
-    url: '/facebook.svg',
+    title: 'Twitter',
+    url: 'https://twitter.com/saucersam',
+  },
+  {
+    title: 'Instagram',
+    url: 'https://instagram.com/samwynne214',
+  },
+  {
+    title: 'Facebook',
+    url: 'https://facebook.com/swynnejr',
   },
 ];
