@@ -13,6 +13,7 @@ function Navbar({}: Props) {
       variants={navVariants}
       initial="hidden"
       whileInView="show"
+      viewport={{ once: true }}
       className={`${styles.xPaddings} py-8 relative`}
     >
       <div className="absolute w-[50%] inset-0 gradient-01" />

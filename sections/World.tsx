@@ -15,7 +15,7 @@ function World({}: Props) {
         variants={staggerContainer as any}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
+        viewport={{ once: true, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
         <TypingText
@@ -44,8 +44,9 @@ function World({}: Props) {
             className="absolute bottom-[25%] right-[25%] w-[70px] h-[70px] p-[6px] invisible md:visible rounded-full bg-[#9215ff5e]"
             initial={{ scale: 0.5, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
+            viewport={{ once: true }}
             transition={{
-              delay: 2.5,
+              delay: 5.5,
               default: {
                 duration: 0.3,
                 ease: [0, 0.71, 0.2, 1.01],
@@ -70,8 +71,9 @@ function World({}: Props) {
             className="absolute top-[40%] left-[55%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#40ff405f]"
             initial={{ scale: 0.5, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
+            viewport={{ once: true }}
             transition={{
-              delay: 1.5,
+              delay: 4.5,
               default: {
                 duration: 0.3,
                 ease: [0, 0.71, 0.2, 1.01],
@@ -95,8 +97,9 @@ function World({}: Props) {
           <motion.div
             initial={{ scale: 0.5, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
+            viewport={{ once: true }}
             transition={{
-              delay: 0.5,
+              delay: 3.5,
               default: {
                 duration: 0.3,
                 ease: [0, 0.71, 0.2, 1.01],
@@ -122,8 +125,9 @@ function World({}: Props) {
           <motion.div
             initial={{ scale: 0.5, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
+            viewport={{ once: true }}
             transition={{
-              delay: 2,
+              delay: 5,
               default: {
                 duration: 0.3,
                 ease: [0, 0.71, 0.2, 1.01],
@@ -145,12 +149,14 @@ function World({}: Props) {
               height={500}
             />
           </motion.div>
-          <motion.div             initial={{ scale: 0.5, opacity: 0 }}
+          <motion.div
+            initial={{ scale: 0.5, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
+            viewport={{ once: true }}
             transition={{
-              delay: 1,
+              delay: 4,
               default: {
-                duration: .3,
+                duration: 0.3,
                 ease: [0, 0.71, 0.2, 1.01],
               },
               scale: {
@@ -160,7 +166,8 @@ function World({}: Props) {
                 restDelta: 0.001,
               },
             }}
- className="absolute top-1/4 left-[25%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#0ef7ff6f]">
+            className="absolute top-1/4 left-[25%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#0ef7ff6f]"
+          >
             <Image
               src="https://cdn.midjourney.com/eb8f4c7c-d08b-48e3-99ce-dde42c9cd57a/grid_0.png"
               className="w-full h-full rounded-full"

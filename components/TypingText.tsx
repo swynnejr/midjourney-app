@@ -12,6 +12,7 @@ export default function TypingText({ title, textStyles }: Props) {
   return (
     <motion.p
       variants={textContainer}
+      viewport={{ once: true }}
       className={`font-normal text-[14px] text-secondary-white ${textStyles}`}
     >
       {Array.from(title).map((letter, i) => (
