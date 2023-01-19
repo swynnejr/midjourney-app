@@ -1,4 +1,4 @@
-I have been having so much fun making AI graphics with [Midjourney](https://www.midjourney.com) that decided to make a fun little website using some of the images I created. It is a React project utilizing [Next.js](https://nextjs.org/) version 13. It uses Tailwind CSS and Framer Motion for styling and animation.
+I have been having so much fun making AI graphics with [Midjourney](https://www.midjourney.com) that I decided to make a fun little website using some of the images I created. It is a single page for now, but I hope to expand it when the Midjourney API allows us to query for top images as rated by the community. It is a React project utilizing [Next.js](https://nextjs.org/) version 13. It uses Tailwind CSS and Framer Motion for styling and animation.
 
 ## Getting Started
 
