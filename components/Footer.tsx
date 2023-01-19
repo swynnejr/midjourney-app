@@ -24,12 +24,12 @@ function Footer({}: Props) {
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           Explore Midjourney Images
         </h4>
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
+        <div className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
           <RocketLaunchIcon className="text-white w-[24px] h-[24px] object-contain" />
           <span className="font-normal text-[16px] text-white">
             See what is out there...
           </span>
-        </button>
+        </div>
       </div>
 
       <div className="flex flex-col">
@@ -43,7 +43,7 @@ function Footer({}: Props) {
             Copyright © 2023 Midjourney Madness. All rights reserved.
           </p>
 
-          <div className="flex gap-4">
+          <div className="flex justify-around">
           {socials.map((social) => (
             <SocialIcon
               key={social.title}

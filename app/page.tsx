@@ -1,27 +1,41 @@
-import { Footer, Navbar } from '../components';
-import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatIsPrompt, World } from '../sections';
-import { exploreWorlds } from '../constants'
+import { Footer, Navbar } from "../components";
+import {
+  About,
+  Explore,
+  Feedback,
+  GetStarted,
+  Hero,
+  Insights,
+  WhatIsPrompt,
+  World,
+} from "../sections";
+import { exploreWorlds } from "../constants";
 
 export default function Home() {
   return (
     <div className="bg-primary-black overflow-hidden">
-      <Navbar />
-      <Hero />
+      <div className="z-100">
+        <Navbar />
+      </div>
+      <div className="z-10">
+        <Hero />
+      </div>
+
       <div className="relative">
-      <About />
+        <About />
         <div className="gradient-03 z-0" />
-      <Explore exploreWorlds={exploreWorlds} />
+        <Explore exploreWorlds={exploreWorlds} />
       </div>
       <GetStarted />
       <div className="relative">
-      <WhatIsPrompt />
+        <WhatIsPrompt />
         <div className="gradient-04 z-0" />
-      <World />
+        <World />
       </div>
       <div className="relative">
-      <Insights />
+        <Insights />
         <div className="gradient-04 z-0" />
-      <Feedback />
+        <Feedback />
       </div>
       <Footer />
     </div>

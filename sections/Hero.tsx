@@ -16,7 +16,7 @@ function Hero({}: Props) {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex flex-col`}
+        className={`${styles.innerWidth} mx-auto flex flex-col relative`}
       >
         <div className="flex justify-center items-center flex-col relative z-10">
           <motion.h1
@@ -45,7 +45,7 @@ function Hero({}: Props) {
 
           <Image
             src="https://cdn.midjourney.com/8f72b394-eddf-4b5e-b9d2-cebbef59c732/grid_0.png"
-            className="w-full object-cover rounded-tl-[140px] z-10 relative"
+            className="w-full h-[800px] object-cover rounded-tl-[140px] z-10 relative"
             alt="Astronaut Drowning in a Giant Aquarium"
             width={800}
             height={800}
