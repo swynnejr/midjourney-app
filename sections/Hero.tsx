@@ -44,8 +44,8 @@ function Hero({}: Props) {
           <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
 
           <Image
-            src="https://cdn.midjourney.com/8f72b394-eddf-4b5e-b9d2-cebbef59c732/grid_0.png"
-            className="w-full object-cover rounded-tl-[140px] z-10 relative"
+            src="https://cdn.midjourney.com/8f72b394-eddf-4b5e-b9d2-cebbef59c732/0_0.png"
+            className="w-full h-[800px] object-cover rounded-tl-[140px] z-10 relative"
             alt="Astronaut Drowning in a Giant Aquarium"
             width={800}
             height={800}
@@ -55,7 +55,7 @@ function Hero({}: Props) {
           <div className="w-full flex justify-end -mt-[50px] sm:-mt-[70px] md:-mt-[125px] lg:-mt-[200px] pr-[40px] relative z-10">
             <Link href="https://www.swynne.com" target="_blank">
               <Image
-                src="https://cdn.midjourney.com/efebb487-320a-4b2c-81a8-fb5c28300583/grid_0.png"
+                src="https://cdn.midjourney.com/efebb487-320a-4b2c-81a8-fb5c28300583/0_0.png"
                 className=" w-[150px] h-[150px] sm:w-[225px] sm:h-[225px] md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px] object-contain rounded-full hover-pointer"
                 alt="AI Picture of Sam Wynne"
                 width={800}
